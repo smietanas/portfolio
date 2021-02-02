@@ -1,0 +1,24 @@
+@import "variables";
+@include reset;
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-main;
+  color: $color-second;
+  padding: 20px;
+  font-size: $font-small;
+
+  & p {
+    padding: 5px 0;
+  }
+}
+
+@include media(md) {
+  footer {
+    flex-direction: row;
+  }
+
+}

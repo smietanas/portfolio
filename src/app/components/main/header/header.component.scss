@@ -1,0 +1,132 @@
+@import "variables";
+
+.navbar-toggler {
+  outline: none;
+  box-shadow: none;
+}
+
+.navigation .navbar-nav .nav-link.active {
+  color: $color-second;
+}
+
+.navigation {
+  background-color: $background-main;
+}
+
+.menu-list li a {
+  color: $color-main;
+}
+
+.menu-list {
+  color: $color-main;
+  transform: perspective(400px);
+  transform-origin: center center;
+  border-radius: 8px;
+  font-size: $font-medium;
+}
+
+.logo-img {
+  background-image: url("/../assets/img/logo.webp");
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+
+.logo-nav {
+  width: 100px;
+  padding-top: 20px;
+}
+
+.close-button {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  overflow: hidden;
+  outline: none;
+}
+
+@include media(lg) {
+  // .overlay {
+  //   display: none;
+  //   }
+
+  .mobile-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .mobile-menu {
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 75%;
+    max-width: 250px;
+    margin: auto;
+    transform: translateX(-100%);
+    padding: 10px;
+    transition: $transition-main;
+    z-index: 1032;
+    background-color: $background-main;
+
+    &.show {
+      transform: translateX(0);
+      transition: $transition-main;
+    }
+  }
+
+  // .blured{
+  //   position: fixed;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100vw;
+  //   height: 100vh;
+  //   z-index: 1031;
+  //   background-color: rgba(0, 0, 0, 0.8);
+  //   overflow: hidden;
+  //   display: block;
+  // }
+
+  .navbar-nav {
+    margin-top: 50px;
+  }
+
+  .nav-item {
+    position: relative;
+    border-bottom: 2px solid #c8c8c8;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+  }
+
+  .nav-item::before {
+    //before mobile menu items
+    // display: block;
+    // content: "";
+    // position: absolute;
+    // top: -4px;
+    // left: -15px;
+    // height: 45px;
+    // width: 8px;
+    // background-color: #5b4bed;
+    // border-radius: 5px;
+  }
+
+  .scrollable-menu {
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  .scrollable-menu::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+  }
+
+  .scrollable-menu::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: lightgray;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.75);
+  }
+}

@@ -1,0 +1,49 @@
+@import "variables";
+@include reset;
+
+.hero-container {
+  background-image: url("/../assets/img/hero-big.webp");
+  block-size: auto;
+  height: calc(100vh - 76px);
+  color: $color-second;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    font-size: $font-medium;
+    letter-spacing: 5px;
+  }
+  &__subtitle {
+    font-size: $font-normal;
+    letter-spacing: 2px;
+  }
+}
+
+@include media(sm) {
+  .hero-container__title {
+    font-size: $font-subtitle-page;
+  }
+  .hero-container__subtitle {
+    font-size: $font-medium;
+  }
+}
+
+@include media(md) {
+  .hero-container__title {
+    font-size: $font-big;
+  }
+  .hero-container__subtitle {
+    font-size: $font-subtitle-page;
+  }
+}
+
+@include media(lg) {
+  .hero-container__title {
+    font-size: $font-huge;
+  }
+  .hero-container__subtitle {
+    font-size: $font-big;
+  }
+}
