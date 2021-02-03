@@ -12,10 +12,6 @@ export class HeaderComponent implements AfterContentInit {
 
   constructor() {}
 
-  // clik(){
-  //   // document.querySelector('.overlay')?.classList.toggle('siema');
-  //   // document.body.classList.toggle('fixed')
-  // }
   ngAfterContentInit(): void {
     this.items = document.querySelectorAll('.nav-link');
     this.ul = document.querySelector('.navbar-nav');
