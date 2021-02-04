@@ -6,11 +6,11 @@ import { AppComponent } from '../app/components/app.component';
 import { HeaderComponent } from './components/main/header/header.component';
 import { FooterComponent } from './components/main/footer/footer.component';
 import { FutureComponent } from './components/future/future.component';
-import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +18,11 @@ import { SkillsComponent } from './components/skills/skills.component';
     HeaderComponent,
     FooterComponent,
     FutureComponent,
-    HomeComponent,
     ContactComponent,
     ProjectsComponent,
     HeroComponent,
-    SkillsComponent
+    SkillsComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

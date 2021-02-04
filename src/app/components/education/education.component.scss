@@ -1,0 +1,190 @@
+@import 'variables';
+
+section {
+  padding: 30px 0;
+  background-color: $background-main;
+  color: $color-second;
+}
+
+.edu {
+  &__description {
+    margin: 0;
+    margin: 5px 20px;
+  }
+
+  &__date {
+    width: 120px;
+    margin: 0;
+    margin: 10px 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: $color-second;
+    color: $color-main;
+    text-align: center;
+  }
+}
+
+.timeline {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    left: 50px;
+    width: 5px;
+    height: 100%;
+    transform: translateX(-50%);
+    background: $color-second;
+    content: '';  
+  }
+}
+
+.timeline-item {
+  width: 100%;
+  margin-bottom: 30px;
+
+  .timeline-content {
+    position: relative;
+    float: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 200px;
+    max-width: 450px;
+    width: auto;
+    padding: 20px;
+    margin-left: 70px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: $font-small;
+    background: $color-main;
+
+
+    &::after {
+      position: absolute;
+      top: 30px;
+      left: -15px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 15px 10px 0;
+      border-color: transparent $color-main transparent transparent;
+      content: '';
+    }
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+.timeline-img {
+  position: absolute;
+  left: 50px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: -15px;
+  background: $color-main;
+}
+
+
+@include media (sm) {
+  .timeline-item {
+    .timeline-content {
+      font-size: $font-normal;
+    }
+  }
+}
+
+@include media (md) {
+  .timeline {
+    &::before {
+      left: 50%;
+    }
+
+    .timeline-img {
+      left: 50%;
+    }
+
+    .timeline-item {
+      &:nth-child(odd) {
+        .timeline-content {
+          width: 45%;
+          margin: 0;
+
+          &::after {
+            left: auto;
+            right: -15px;
+            border-width: 10px 0 10px 15px;
+            border-color: transparent transparent transparent $color-main;
+          }
+        }
+      }
+
+      &:nth-child(even) {
+        .timeline-content {
+          float: right;
+          width: 45%;
+          margin: 0;
+
+          &::after {
+            left: -15px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@include media(lg) {
+  .timeline-item {
+    .timeline-content {
+      font-size: $font-medium;
+    }
+  }
+}
+
+@include media(xl) {
+  .timeline {
+    .timeline-item {
+      &:nth-child(odd) {
+        margin-left: 60px;
+
+        .timeline-content {
+          &::after {
+            right: -14px;
+          }
+        }
+      }
+
+      &:nth-child(even) {
+        margin-left: -60px;
+
+        .timeline-content {
+          &::after {
+            left: -14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@include media(xxl) {
+  .timeline {
+    .timeline-item {
+      &:nth-child(odd) {
+        margin-left: 130px;
+      }
+
+      &:nth-child(even) {
+        margin-left: -130px;
+      }
+    }
+  }
+}

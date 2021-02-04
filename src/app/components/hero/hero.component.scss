@@ -3,7 +3,8 @@
 
 .hero-container {
   background-image: url("/../assets/img/hero-big.webp");
-  block-size: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: calc(100vh - 76px);
   color: $color-second;
   display: flex;
