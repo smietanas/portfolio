@@ -155,6 +155,7 @@ a {
 section{
   background-color: $background-main; 
   padding-bottom: 50px;
+  color: $color-main;
 }
 
 .section-title {
@@ -175,6 +176,10 @@ filter: blur(2px);
 margin-top: 50px;
 }
 
+.setFlex{
+  display: flex;
+  justify-content: center;
+}
 
 @include media(sm){
   section{

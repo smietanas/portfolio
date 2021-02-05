@@ -1,0 +1,93 @@
+@import 'variables';
+
+.future {}
+
+.my-future {
+  text-align: center;
+
+  &__description {
+    margin: 0;
+  }
+}
+
+.icon-document::before {
+  content: "\e005";
+}
+
+.future-plans {
+  margin-bottom: 40px;
+  perspective: 300px;
+  text-align: center;
+
+  &__icon {
+    margin: 0 auto;
+    font-size: 44px;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.7s ease 0s, opacity 0.3s ease 0s;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 300;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.7s ease 0s;
+  }
+
+  &__hidden-text {
+    opacity: 0;
+    transform: rotate3d(1, 0, 0, -90deg) translate3d(0, 50px, 0);
+    transition: transform 0.7s ease 0s, opacity 0.2s ease 0.3s;
+  }
+
+
+  &:hover .future-plans__icon {
+    opacity: 0;
+    transform: rotate3d(1, 0, 0, 80deg) translate3d(0, -50px, 50px);
+    transition: transform 0.7s ease 0s, opacity 0.3s ease 0.2s;
+  }
+  
+  &:hover .future-plans__title {
+    transform: translate3d(0, -75px, 0);
+  }
+  
+  &:hover .future-plans__hidden-text {
+    opacity: 1;
+    transform: translate3d(0, -70px, 0);
+    transition: transform 0.7s ease 0s, opacity 0.3s ease 0s;
+  }
+}
+
+.future-pictures{
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80px;
+  &__fig{
+    background-image: url('/../assets/img/figma-future.png');
+  }
+  &__three{
+    background-image: url('/../assets/img/three-future.png');
+  }
+  &__gsap{
+    background-image: url('/../assets/img/gsap-future.png');
+  }
+  &__php{
+    background-image: url('/../assets/img/php-future.png');
+  }
+  &__wp{
+    background-image: url('/../assets/img/wp-future.png');
+  }
+  &__ps{
+    background-image: url('/../assets/img/ps-future.png');
+  }
+}
+
+@include media(md) {
+  .my-future {
+    &__description {
+      margin: 10px;
+      font-size: $font-medium;
+    }
+  }
+}
