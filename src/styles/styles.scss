@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: $background-main;
   font-weight: 400;
+  background-color: $background-main; 
 }
 a {
   display: inline-block;
@@ -152,9 +152,36 @@ a {
   }
 }
 
+section{
+  background-color: $background-main; 
+  padding-bottom: 50px;
+}
+
 .section-title {
   text-align: center;
   color: $color-main;
-  font-size: $font-titles-page;
-  padding-bottom: 50px;
+  font-size: $font-medium;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 2px solid $color-second;
+  border-radius: 30px;
 }
+
+.separator{
+height: 2px;
+width: 100%;
+background-color: $color-second;
+filter: blur(2px);
+margin-top: 50px;
+}
+
+
+@include media(sm){
+  section{
+    padding-bottom: 70px;
+  }
+  .section-title{
+    font-size: $font-subtitle-page;
+  }
+}
+

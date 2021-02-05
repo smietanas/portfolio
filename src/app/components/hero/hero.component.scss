@@ -1,6 +1,9 @@
 @import "variables";
 @include reset;
-
+.container-fluid{
+  padding-bottom:100px;
+  background-color: $background-main;
+}
 .hero-container {
   background-image: url("/../assets/img/hero-big.webp");
   background-repeat: no-repeat;
