@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="row  setFlex">
-      <div class="col-md-6 col-lg-4 gallery" *ngFor='let proj of projectList'>
+      <div class="col-md-6 col-xl-4 gallery" *ngFor='let proj of projectList'>
         <div class="gallery__item" [style.backgroundImage]="'url('+proj.url_img+')'">
           <div class="gallery__desc">
             <p class="gallery__itemName">{{proj.name}}</p>
@@ -54,7 +54,7 @@
     <div class="modal-dialog modal-dialog-centered ">
       <div class="modal-content">
       <!-- karuzela -->
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" data-touch="true" data-ride="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="{{item?.url_img}}" class="d-block w-100" alt="...">

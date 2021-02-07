@@ -1,8 +1,6 @@
 @import 'variables';
 
-.projects {
-
-}
+.projects {}
 
 .menu {
   display: flex;
@@ -38,9 +36,9 @@
 
 }
 
-.gallery__desc{
+.gallery__desc {
   opacity: 0;
-   visibility: hidden;
+  visibility: hidden;
   background-color: #fff;
   height: 300px;
   width: 100%;
@@ -50,47 +48,53 @@
   justify-content: center;
   align-items: center;
 }
-.gallery__itemName{
-font-size: $font-mediumUp;
-text-transform: uppercase;
-letter-spacing: 2px;
-font-weight: bold;
-}
-.gallery__technologies{
-font-size: $font-medium;
-color: $color-additional;
-font-weight: bold;
-}
-.gallery__showMore{
-border: 1px solid $color-main;
-color: $color-main;
-background-color: transparent;
-padding: 5px 10px;
-}
-.gallery__showMore:focus{
-  outline: none;
-}
-.gallery__item:hover .gallery__desc {
-  opacity: 1;
-visibility: visible;
+
+.gallery__itemName {
+  font-size: $font-mediumUp;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
-.modal-description{
+.gallery__technologies {
+  font-size: $font-medium;
+  color: $color-additional;
+  font-weight: bold;
+}
+
+.gallery__showMore {
+  border: 1px solid $color-main;
+  color: $color-main;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+
+.gallery__showMore:focus {
+  outline: none;
+}
+
+.gallery__item:hover .gallery__desc {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-description {
   border-top: 1px solid #dee2e6;
   padding: 16px;
 }
 
-.modal-footer{
+.modal-footer {
   border: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   & a:link {
     text-decoration: none;
   }
 }
 
-.footer-button__visit{
+.footer-button__visit {
   padding: 5px 20px;
   color: $color-second;
   background-color: $color-additional;
@@ -98,17 +102,18 @@ visibility: visible;
   text-decoration: none;
 }
 
-@include media(sm){
-  .menu{
+@include media(sm) {
+  .menu {
     font-size: $font-normal;
   }
 }
 
-@include media(md){
-  .menu{
+@include media(md) {
+  .menu {
     font-size: $font-mediumUp;
     padding: 10px 20px;
     margin-bottom: 20px;
+
     &__item {
       padding: 10px 50px;
     }
