@@ -20,8 +20,9 @@
   position: relative;
   height: 600px;
   width: 100%;
+  border-radius: 5px;
   overflow: hidden;
-  padding-top: 20px;
+  border-radius: 5px;
 }
 
 .quotation {
@@ -79,11 +80,13 @@ overflow: hidden;
   width: 100%;
   z-index: 99;
 
+
   &__input {
     width: 100%;
     outline: none;
     background: none;
     -webkit-appearance: none;
+    // border-radius: 5px;
   }
 
   &__input::-webkit-slider-thumb {
