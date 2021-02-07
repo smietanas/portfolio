@@ -26,7 +26,7 @@
 }
 
 .logo-img {
-  background-image: url("/../assets/img/logo.webp");
+  background-image: url("~src/assets/img/logo.webp");
   height: 60px;
   width: 60px;
   background-repeat: no-repeat;
@@ -77,17 +77,6 @@
     }
   }
 
-  // .blured{
-  //   position: fixed;
-  //   top: 0;
-  //   left: 0;
-  //   width: 100vw;
-  //   height: 100vh;
-  //   z-index: 1031;
-  //   background-color: rgba(0, 0, 0, 0.8);
-  //   overflow: hidden;
-  //   display: block;
-  // }
 
   .navbar-nav {
     margin-top: 50px;
@@ -101,18 +90,7 @@
     border-radius: 5px;
   }
 
-  .nav-item::before {
-    //before mobile menu items
-    // display: block;
-    // content: "";
-    // position: absolute;
-    // top: -4px;
-    // left: -15px;
-    // height: 45px;
-    // width: 8px;
-    // background-color: #5b4bed;
-    // border-radius: 5px;
-  }
+
 
   .scrollable-menu {
     height: auto;

@@ -1,1 +1,98 @@
-<p>projects works!</p>
+<section class="projects">
+  <header class="setFlex">
+    <h2 class="section-title">
+      Projekty
+    </h2>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="menu" (click)='filterProject($event)'>
+
+          <div class="menu__item active" data-filter="all">
+            All
+          </div>
+
+          <div class="menu__item" data-filter="jsb">
+            Js/Bootstrap
+          </div>
+
+          <div class="menu__item" data-filter="css">
+            Css
+          </div>
+
+          <div class="menu__item" data-filter="ang">
+            Angular
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="row  setFlex">
+      <div class="col-md-6 col-lg-4 gallery" *ngFor='let proj of projectList'>
+        <div class="gallery__item" [style.backgroundImage]="'url('+proj.url_img+')'">
+          <div class="gallery__desc">
+            <p class="gallery__itemName">{{proj.name}}</p>
+            <p class="gallery__technologies">{{proj.technologies}}</p>
+            <button type="button" class="btn btn-primary gallery__showMore" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" (click)='showMore(proj.id)'>
+              Zobacz więcej
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered ">
+      <div class="modal-content">
+      <!-- karuzela -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{{item?.url_img}}" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{item?.url_img}}" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{{item?.url_img}}" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+<!-- koniec karuzeli -->
+        <div class="modal-body">
+         <p> {{item?.name}}</p>
+         <p>{{item?.description_modal1}}</p>
+        </div>
+        <div class="modal-description">
+          {{item?.description_modal2}}
+        </div>
+
+        <div class="modal-footer">
+          <a href="https://www.nspojrzenie.pl" target="_blank">
+            <div class="footer-button__visit"> Zobacz więcej</div>
+          </a>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "kalkulatorjs",
+    "categories": [
+      "all",
+      "jsb"
+    ],
+    "technologies": "JavaScritp/bootstrap",
+    "description_modal1":"Jakis krótki opis 1",
+    "description_modal2":"NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.",
+    "url_img": "./assets/img/pr1.png",
+    "url_mogal1":"./assets/img/prmodal11.png",
+    "url_mogal2":"./assets/img/prmodal12.png",
+    "url_mogal3":"./assets/img/prmodal13.png"
+  },
+  {
+    "id": 2,
+    "name": "strona css1",
+    "categories": [
+      "all",
+      "css"
+    ],
+    "technologies": "Css",
+    "description_modal1":"Jakis krótki opis 2",
+    "description_modal2":"Jakiś długi opis 2",
+    "url_img": "./assets/img/pr2.png",
+    "url_mogal1":"./assets/img/prmodal21.png",
+    "url_mogal2":"./assets/img/prmodal22.png",
+    "url_mogal3":"./assets/img/prmodal23.png"
+  },
+  {
+    "id": 3,
+    "name": "strona css2",
+    "categories": [
+      "all",
+      "css"
+    ],
+    "technologies": "Css",
+    "description_modal1":"Jakis krótki opis 3",
+    "description_modal2":"Jakiś długi opis 3",
+    "url_img": "./assets/img/pr3.png",
+    "url_mogal1":"./assets/img/prmodal31.png",
+    "url_mogal2":"./assets/img/prmodal32.png",
+    "url_mogal3":"./assets/img/prmodal33.png"
+  },
+  {
+    "id": 4,
+    "name": "PortofolioMax ang",
+    "categories": [
+      "all",
+      "ang"
+    ],
+    "technologies": "Angular",
+    "description_modal1":"Jakis krótki opis 4",
+    "description_modal2":"Jakiś długi opis 4",
+    "url_img": "./assets/img/pr4.png",
+    "url_mogal1":"./assets/img/prmodal41.png",
+    "url_mogal2":"./assets/img/prmodal42.png",
+    "url_mogal3":"./assets/img/prmodal43.png"
+  },
+  {
+    "id": 5,
+    "name": "MixMasz jsb",
+    "categories": [
+      "all",
+      "jsb"
+    ],
+    "technologies": "JavaScritp/bootstrap",
+    "description_modal1":"Jakis krótki opis 5",
+    "description_modal2":"Jakiś długi opis 5",
+    "url_img": "./assets/img/pr5.png",
+    "url_mogal1":"./assets/img/prmodal51.png",
+    "url_mogal2":"./assets/img/prmodal52.png",
+    "url_mogal3":"./assets/img/prmodal53.png"
+  },
+  {
+    "id": 6,
+    "name": "Kakad jsb",
+    "categories": [
+      "all",
+      "jsb"
+    ],
+    "technologies": "JavaScritp/bootstrap",
+    "description_modal1":"Jakis krótki opis 6",
+    "description_modal2":"Jakiś długi opis 6",
+    "url_img": "./assets/img/pr6.png",
+    "url_mogal1":"./assets/img/prmodal61.png",
+    "url_mogal2":"./assets/img/prmodal62.png",
+    "url_mogal3":"./assets/img/prmodal63.png"
+  }
+]

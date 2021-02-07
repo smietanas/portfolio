@@ -57,7 +57,7 @@ overflow: hidden;
   &__img-1 {
     height: 100%;
     width: 100%;
-    background-image: url('/../assets/img/test1111.jpg');
+    background-image: url('~src/assets/img/test1111.jpg');
     background-repeat: no-repeat;
   }
 
@@ -66,7 +66,7 @@ overflow: hidden;
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url('/../assets/img/test111.jpg');
+    background-image: url('~src/assets/img/test111.jpg');
     background-repeat: no-repeat;
   }
 }
