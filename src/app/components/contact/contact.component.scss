@@ -1,0 +1,92 @@
+@import 'variables';
+
+
+
+.contact-box__description {
+  text-align: center;
+  font-size: $font-medium;
+}
+
+.contact-box__elements {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.single-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+
+  &__icon {
+    background-repeat: no-repeat;
+    height: 72px;
+    width: 72px;
+    cursor: pointer;
+    background-position: center;
+    transition: $transition-main;
+  }
+
+  &__text {
+    transition: $transition-main;
+    font-size: $font-small;
+    padding-top: 10px;
+  }
+}
+
+.contact-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.linked {
+  background-image: url('~src/assets/img/in.png');
+
+  &:hover {
+    background-image: url('~src/assets/img/in-hover.png');
+  }
+
+}
+
+.github {
+  background-image: url('~src/assets/img/git.png');
+
+  &:hover {
+    background-image: url('~src/assets/img/git-hover.png');
+  }
+}
+
+.mail {
+  background-image: url('~src/assets/img/mail.png');
+
+  &:hover {
+    background-image: url('~src/assets/img/mail-hover.png');
+  }
+}
+
+.phone {
+  background-image: url('~src/assets/img/phone.png');
+
+  &:hover {
+    background-image: url('~src/assets/img/phone-hover.png');
+  }
+}
+
+
+@include media(sm){
+
+  .single-item__text{
+    font-size: $font-normal;
+  }
+}
+
+@include media(md) {
+  .single-item {
+    padding: 10px 30px;
+  }
+  .contact-box__description{
+    font-size: $font-mediumUp;
+  }
+}

@@ -1,37 +1,40 @@
 [
   {
     "id": 1,
-    "name": "kalkulatorjs",
+    "name": "Nowe Spojrzenie",
+    "link": "http://www.ksmiertka.you2.pl/NoweSpojrzenie",
     "categories": [
       "all",
-      "jsb"
+      "ang"
     ],
-    "technologies": "JavaScritp/bootstrap",
-    "description_modal1":"Jakis krótki opis 1",
-    "description_modal2":"NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.",
-    "url_img": "./assets/img/pr1.png",
-    "url_mogal1":"./assets/img/prmodal11.png",
-    "url_mogal2":"./assets/img/prmodal12.png",
-    "url_mogal3":"./assets/img/prmodal13.png"
+    "technologies": "Angular/Bootstrap",
+    "description_modal1":"Salon kosmetyczny",
+    "description_modal2":"Strona salonu kosmetycznego. Zawiera opis szkoleń oraz zabiegów. Salon kosmetyczny zajmuje się pielęgnacją rzęs i brwi.",
+    "url_img": "./assets/img/nspojrzenie.webp",
+    "url_mogal1":"./assets/img/nowespojrzenie1.png",
+    "url_mogal2":"./assets/img/nowespojrzenie2.png",
+    "url_mogal3":"./assets/img/nowespojrzenie3.png"
   },
   {
     "id": 2,
-    "name": "strona css1",
+    "name": "Stare portfolio",
+    "link": "http://www.ksmiertka.you2.pl",
     "categories": [
       "all",
       "css"
     ],
     "technologies": "Css",
-    "description_modal1":"Jakis krótki opis 2",
-    "description_modal2":"Jakiś długi opis 2",
-    "url_img": "./assets/img/pr2.png",
-    "url_mogal1":"./assets/img/prmodal21.png",
-    "url_mogal2":"./assets/img/prmodal22.png",
-    "url_mogal3":"./assets/img/prmodal23.png"
+    "description_modal1":"Moje stare portfolio",
+    "description_modal2":"Zostało napisane w css dawno temu",
+    "url_img": "./assets/img/portold.PNG",
+    "url_mogal1":"./assets/img/portold1.png",
+    "url_mogal2":"./assets/img/portold2.png",
+    "url_mogal3":"./assets/img/portold3.png"
   },
   {
     "id": 3,
     "name": "strona css2",
+    "link": "http://www.ksmiertka.you2.pl/NoweSpojrzenie",
     "categories": [
       "all",
       "css"
@@ -47,6 +50,7 @@
   {
     "id": 4,
     "name": "PortofolioMax ang",
+    "link": "http://www.ksmiertka.you2.pl/NoweSpojrzenie",
     "categories": [
       "all",
       "ang"
@@ -62,6 +66,7 @@
   {
     "id": 5,
     "name": "MixMasz jsb",
+    "link": "http://www.ksmiertka.you2.pl/NoweSpojrzenie",
     "categories": [
       "all",
       "jsb"
@@ -77,6 +82,7 @@
   {
     "id": 6,
     "name": "Kakad jsb",
+    "link": "http://www.ksmiertka.you2.pl/NoweSpojrzenie",
     "categories": [
       "all",
       "jsb"

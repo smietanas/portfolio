@@ -21,6 +21,12 @@ export class HttpService {
     return this.http.get<ProjectsModel[]>('./assets/data/projects.json').pipe(
       map(projects => projects.filter(p => p.categories.includes(category))));
   }
+
+  getByProjectNotCategory(category: string): Observable<ProjectsModel[]> {    
+    return this.http.get<ProjectsModel[]>('./assets/data/projects.json').pipe(
+      map(projects => projects.filter(p => !p.categories.includes(category))));
+  }
+
   getProjectByID(id: number): Observable<ProjectsModel[]> {    
     return this.http.get<ProjectsModel[]>('./assets/data/projects.json').pipe(
       map(projects => projects.filter(p => p.id ===  id)));

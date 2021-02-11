@@ -1,6 +1,7 @@
 export interface ProjectsModel {
   id: number,
   name: string,
+  link:string,
   categories: [string],
   technologies: string,
   description_modal1: string,

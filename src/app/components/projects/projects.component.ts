@@ -34,14 +34,13 @@ export class ProjectsComponent implements OnInit {
 
     if (dataFilter) {
       this.service.getByProjectCategory(dataFilter).subscribe(data => { 
-        this.projectList = data;        
-      });
-       
+        this.projectList = data; 
       
-    
+      });
+      
+
        this.menuItems.forEach((item: HTMLElement) => item.classList.remove("active"));
        target.classList.add("active") 
-
        
     }
   }
