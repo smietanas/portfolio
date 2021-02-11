@@ -23,6 +23,7 @@ export class HeaderComponent implements AfterContentInit {
 
   setActiveClass(e: MouseEvent) {
     const elem = e.target as HTMLElement;
+    
     if (elem.classList.contains('nav-link')) {
       this.items.forEach((item: HTMLElement) => item.classList.remove("active"));
       elem.classList.add("active")
@@ -34,5 +35,21 @@ export class HeaderComponent implements AfterContentInit {
 
     gsap.to(elem, { scale: .8, ease: "Power4.easeOut", duration: 0.3 });
     gsap.to(elem, { scale: 1, ease: "Back.easeOut.config(4)", delay: 0.2 });
+
+    let destinationId = `s${elem.id}`
+    console.log(destinationId);
+    const dd = document.getElementById(destinationId);
+    console.log(dd);
+    const toTop = 120;
+    $('html, body').animate({
+      scrollTop: $(dd).offset().top-toTop
+    }, 1000)
+
+
+  }
+
+
+  smoothScroll(id){
+ 
   }
 }
