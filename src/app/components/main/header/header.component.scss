@@ -5,8 +5,9 @@
   box-shadow: none;
 }
 
-.navigation .navbar-nav .nav-link.active {
+.navigation .navbar-nav .nav-item.active a {
   color: $color-second;
+
 }
 
 .navigation {
