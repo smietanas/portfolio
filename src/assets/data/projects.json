@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Nowe Spojrzenie",
+    "nameEg": "New Look",
     "link": "http://www.ksmiertka.you2.pl/NoweSpojrzenie",
     "categories": [
       "all",
@@ -13,11 +14,13 @@
     "url_img": "./assets/img/nspojrzenie.webp",
     "url_mogal1":"./assets/img/nowespojrzenie1.png",
     "url_mogal2":"./assets/img/nowespojrzenie2.png",
-    "url_mogal3":"./assets/img/nowespojrzenie3.png"
+    "url_mogal3":"./assets/img/nowespojrzenie3.png",
+    "description_modal1Eg":"Beauty Studio",
+    "description_modal2Eg":"Beauty salon website. It includes a description of training and treatments. The beauty salon takes care of eyelashes and eyebrows."
   },
   {
     "id": 2,
-    "name": "Stare portfolio",
+    "name": "Portfolio-stare",
     "link": "http://www.ksmiertka.you2.pl",
     "categories": [
       "all",
@@ -29,7 +32,9 @@
     "url_img": "./assets/img/portold.PNG",
     "url_mogal1":"./assets/img/portold1.png",
     "url_mogal2":"./assets/img/portold2.png",
-    "url_mogal3":"./assets/img/portold3.png"
+    "url_mogal3":"./assets/img/portold3.png",
+    "description_modal1Eg":"Portfolio",
+    "description_modal2Eg":"Beauty salon website. It includes a description of training and treatments. The beauty salon takes care of eyelashes and eyebrows."
   },
   {
     "id": 3,
@@ -45,7 +50,9 @@
     "url_img": "./assets/img/pr3.png",
     "url_mogal1":"./assets/img/prmodal31.png",
     "url_mogal2":"./assets/img/prmodal32.png",
-    "url_mogal3":"./assets/img/prmodal33.png"
+    "url_mogal3":"./assets/img/prmodal33.png",
+    "description_modal1Eg":"Beauty Studio",
+    "description_modal2Eg":"Beauty salon website. It includes a description of training and treatments. The beauty salon takes care of eyelashes and eyebrows."
   },
   {
     "id": 4,
@@ -61,7 +68,9 @@
     "url_img": "./assets/img/pr4.png",
     "url_mogal1":"./assets/img/prmodal41.png",
     "url_mogal2":"./assets/img/prmodal42.png",
-    "url_mogal3":"./assets/img/prmodal43.png"
+    "url_mogal3":"./assets/img/prmodal43.png",
+    "description_modal1Eg":"Beauty Studio",
+    "description_modal2Eg":"Beauty salon website. It includes a description of training and treatments. The beauty salon takes care of eyelashes and eyebrows."
   },
   {
     "id": 5,
@@ -77,7 +86,9 @@
     "url_img": "./assets/img/pr5.png",
     "url_mogal1":"./assets/img/prmodal51.png",
     "url_mogal2":"./assets/img/prmodal52.png",
-    "url_mogal3":"./assets/img/prmodal53.png"
+    "url_mogal3":"./assets/img/prmodal53.png",
+    "description_modal1Eg":"Beauty Studio",
+    "description_modal2Eg":"Beauty salon website. It includes a description of training and treatments. The beauty salon takes care of eyelashes and eyebrows."
   },
   {
     "id": 6,
@@ -93,6 +104,8 @@
     "url_img": "./assets/img/pr6.png",
     "url_mogal1":"./assets/img/prmodal61.png",
     "url_mogal2":"./assets/img/prmodal62.png",
-    "url_mogal3":"./assets/img/prmodal63.png"
+    "url_mogal3":"./assets/img/prmodal63.png",
+    "description_modal1Eg":"Beauty Studio",
+    "description_modal2Eg":"Beauty salon website. It includes a description of training and treatments. The beauty salon takes care of eyelashes and eyebrows."
   }
 ]

@@ -27,12 +27,32 @@
   font-size: $font-medium;
 }
 
-.logo-img {
-  background-image: url("~src/assets/img/logo.webp");
-  height: 60px;
-  width: 60px;
-  background-repeat: no-repeat;
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+
+  .logo__img {
+    background-image: url("~src/assets/img/logo-small.png");
+    height: 65px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .logo__languages {
+    display: flex;
+    padding: 5px;
+
+    & img {
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
 }
+
+
 
 .logo-nav {
   width: 100px;

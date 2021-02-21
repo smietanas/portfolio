@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateCompiler, TranslateService } from '@ngx-translate/core';
+import { Observable } from 'rxjs';
 import { ProjectsModel } from 'src/app/shared/models/ProjectsModel';
 import { HttpService } from 'src/app/shared/services/http.service';
 
@@ -11,7 +13,13 @@ export class ProjectsComponent implements OnInit {
   menuItems: any;
   projectList: ProjectsModel[];
   item: ProjectsModel;
-  constructor(private service: HttpService) { }
+  currentLang:string;
+
+  constructor(private service: HttpService, public translate: TranslateService ) {
+    this.service.getCurrentLang().subscribe(data => {
+      this.currentLang = data; 
+    })
+   }
 
 
   ngOnInit(): void {
@@ -29,6 +37,7 @@ export class ProjectsComponent implements OnInit {
     })
   }
   filterProject(e: MouseEvent) {
+        
     const target = e.target as HTMLElement;
     const dataFilter = target.getAttribute('data-filter');
 

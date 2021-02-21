@@ -1,5 +1,8 @@
-import { AfterContentInit, Component } from '@angular/core';
+import { AfterContentInit, Component, EventEmitter, Output } from '@angular/core';
 import { gsap } from 'gsap';
+import {TranslateService} from '@ngx-translate/core';
+import { HttpService } from 'src/app/shared/services/http.service';
+import { Observable } from 'rxjs';
 declare var $: any;
 @Component({
   selector: 'app-header',
@@ -9,15 +12,30 @@ declare var $: any;
 export class HeaderComponent implements AfterContentInit {
   items: any;
   ul: any;
+  currentLang: Observable<string>;
 
-  constructor() {
+
+  public useLanguage(lang: string): void {
+    this.translate.use(lang);
+    this.service.changeLang(lang);
+  }
+
+  constructor(public translate: TranslateService, private service : HttpService) {
+    this.currentLang = this.service.getCurrentLang();
+
+      translate.addLangs(['en', 'pl']);
+      translate.setDefaultLang('pl');
+  
+      const browserLang = translate.getBrowserLang();
+      translate.use(browserLang.match(/en|pl/) ? browserLang : 'pl');
+
     $(document).ready(function () {
       const scrollLink = $('.scroll');
       // Smooth scrolling
       scrollLink.click(function (e) {
         e.preventDefault();
         $('body,html').animate({
-          scrollTop: $(this.hash).offset().top - 100
+          scrollTop: $(this.hash).offset().top - 130
         }, 1000);
       });
       // Active link switching
@@ -47,6 +65,7 @@ export class HeaderComponent implements AfterContentInit {
   }
 
   setActiveClass(e: MouseEvent) {
+
     const elem = e.target as HTMLElement;
     const pageX = e.pageX;
     const rotate = pageX - 10 - window.innerWidth / 2;

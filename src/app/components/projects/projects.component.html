@@ -1,7 +1,7 @@
 <section class="projects" id="projects">
   <header class="setFlex">
-    <h2 class="section-title">
-      Projekty
+    <h2 class="section-title orange-Text-gradient">
+      {{ 'Projects.ProjectsSectionTitle' | translate }}
     </h2>
   </header>
   <div class="container">
@@ -10,7 +10,7 @@
         <div class="menu" (click)='filterProject($event)'>
 
           <div class="menu__item active" data-filter="all">
-            All
+            {{ 'Projects.All' | translate }}
           </div>
 
           <div class="menu__item" data-filter="jsb">
@@ -37,7 +37,7 @@
             <p class="gallery__technologies">{{proj.technologies}}</p>
             <button type="button" class="btn btn-primary gallery__showMore" data-bs-toggle="modal"
               data-bs-target="#exampleModal" (click)='showMore(proj.id)'>
-              Zobacz więcej
+              {{ 'Projects.ShowMore' | translate }}
             </button>
 
           </div>
@@ -78,15 +78,16 @@
 <!-- koniec karuzeli -->
         <div class="modal-body">
          <p> {{item?.name}}</p>
-         <p>{{item?.description_modal1}}</p>
+         <p> {{currentLang == "pl" ? item?.description_modal1 : item?.description_modal1Eg }}</p>
+        
         </div>
         <div class="modal-description">
-          {{item?.description_modal2}}
+          {{currentLang == "pl" ? item?.description_modal2 : item?.description_modal2Eg }}
         </div>
 
         <div class="modal-footer">
           <a href="{{item?.link}}" target="_blank">
-            <div class="footer-button__visit"> Zobacz więcej</div>
+            <div class="footer-button__visit"> {{ 'Projects.ShowMore' | translate }}</div>
           </a>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>

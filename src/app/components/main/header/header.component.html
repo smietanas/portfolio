@@ -1,36 +1,43 @@
 <nav class="navbar navbar-expand-lg navigation sticky-top" >
   <div class="container">
-    <div class="logo-img">
+    <div class="logo">
+      <div class="logo__img">
+      </div>
+      <div class="logo__languages">
+        <img src="./assets/icons/pl.png" alt="polish" (click)="useLanguage('pl')">
+        <img src="./assets/icons/eng.png" alt="english" (click)="useLanguage('en')">
+      </div>
     </div>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span><img class="icon--big" src="./assets/icons/bars_i.png" alt="Otwórz menu"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center mobile-menu scrollable-menu" id="navbarSupportedContent">
       <a class="navbar-brand mobile-logo">
-        <img src="./assets/img/logo.webp" alt="Logo" class="d-inline-block align-middle logo-nav" /></a>
+        <img src="./assets/img/logo-small.png" alt="Logo" class="d-inline-block align-middle logo-nav" /></a>
       <ul class="navbar-nav align-self-stretch menu-list" (click)='setActiveClass($event)'>
 
         <li class="nav-item active">
-          <a class="nav-link   scroll" href="#hero"  >Hero</a>
+          <a class="nav-link   scroll" href="#hero"  >{{ 'Nav.Main' | translate }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  scroll" href="#skills">Umiejętności</a>
+          <a class="nav-link  scroll" href="#skills">{{ 'Nav.Skills' | translate }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  scroll" href="#education" >Edukacja</a>
+          <a class="nav-link  scroll" href="#education" >{{ 'Nav.Education' | translate }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  scroll" href="#about">O mnie</a>
+          <a class="nav-link  scroll" href="#about">{{ 'Nav.About' | translate }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  scroll" href="#future">Przyszłość</a>
+          <a class="nav-link  scroll" href="#future">{{ 'Nav.Future' | translate }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  scroll" href="#projects" >Projekty</a>
+          <a class="nav-link  scroll" href="#projects" >{{ 'Nav.Projects' | translate }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  scroll" href="#contact">Kontakt</a>
+          <a class="nav-link  scroll" href="#contact">{{ 'Nav.Contact' | translate }}</a>
         </li>
       </ul>
       <button class="navbar-toggler close-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -38,6 +45,10 @@
         <span><img class="icon--big" src="./assets/icons/close_i.png" alt="Zamknij menu"></span>
     </button>
     </div>
+    <!-- <select #langSelect (change)="translate.use(langSelect.value)">
+      <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+    </select> -->
+
     <!-- <div class="collapse overlay">
     </div> -->
   </div>

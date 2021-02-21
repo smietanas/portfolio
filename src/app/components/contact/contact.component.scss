@@ -10,7 +10,7 @@
 .contact-box__elements {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .single-item {
@@ -73,6 +73,27 @@
     background-image: url('~src/assets/img/phone-hover.png');
   }
 }
+.contact-logo{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  .contact-logo__logo {
+    display: flex;
+    justify-content: center;
+     background-image: url("~src/assets/img/logo-medium.png");
+     height: 125px;
+     width: 200px;
+     background-repeat: no-repeat;
+     background-position: center center;
+   }
+   .contact-logo__name{
+     padding: 15px 0;
+   }
+}
+
 
 
 @include media(sm){
@@ -88,11 +109,17 @@
   }
   .contact-box__description{
     font-size: $font-mediumUp;
-    padding: 50px 0;
+    // padding: 50px 0;
   }
-
-  .contact-box__elements{
-    padding-top: 50px;
-    padding-bottom: 250px;
+  .contact-logo{
+    padding-top: 40px;
+  .contact-logo__logo {
+    background-image: url("~src/assets/img/logo.png");
+    height: 175px;
+    width: 250px;
   }
+  .contact-logo__name{
+    font-size: $font-subtitle-page;
+  }
+}
 }

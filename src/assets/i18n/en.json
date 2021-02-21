@@ -1,0 +1,53 @@
+{
+  "Nav": {
+    "Main": "Main",
+    "Skills": "Skills",
+    "Education": "Education",
+    "About": "About Me",
+    "Future": "Future",
+    "Projects": "Projects",
+    "Contact": "Contact"
+  },
+  "Skills":{
+    "SkillsSectionTitle": "Skills"
+  },
+  "Education":{
+    "EducationSectionTitle" : "Education",
+    "EduBoxUniv1": "University of Rzeszów - Information Technology",
+    "EduBoxUniv2": "Technical school No. 8 in Przemysl",
+    "EduBoxSpec1": "Specialization: computer science in medicine",
+    "EduBoxSpec2": "IT specialist",
+    "EduBoxLvl1": "Masters",
+    "EduBoxLvl2": "Engineering studies"
+  },
+  "About":{
+    "AboutSectionTitle" : "Few words about me",
+    "Description1": "I chose the IT industry because I was fascinated by how fast it is growing and how many areas it is divided into. During my studies, I liked JavaScript. In the case of Front-end, the effects of the work are immediately visible, which motivates me even more to improve my skills.",
+    "Description2":"Over time, I wanted to write professional-looking pages for my own needs. The more technologies or frameworks I learn, the more I want to develop in this direction. In the future, I would also like to learn about Back-end technologies to make my projects even better. In my spare time, apart from coding, I watch series or play. I also like to spend time actively with my friends, playing bowling or squash.",
+    "CiteTitle": "My favorite quote",
+    "Cite": "Many of the things you can count do not count. Many of those that cannot be counted really do count."
+  },
+  "Future":{
+    "FutureSectionTitle" : "Future",
+    "Description": "I focus on continuous development. In the future, I would also like to develop Back-end technologies such as Node.js or PHP. I also plan to explore libraries for creating animations and interesting visual solutions such as Gsap and Three.js. I would also like to broaden my knowledge of graphics software such as Photo Shop as well as many others such as Wordpress.",
+    "FigmaDesc": "Currently I design mockups in this program. However, it has many more options that I would like to know, such as animations and interactions between frames.",
+    "ThreeDesc": "I have been fascinated by animations in this environment for a long time. Three.js has many possibilities, but I like particles the most. The effects of breaking up text or an image are really amazing.",
+    "GsapDesc": "A very nice library. Extremely developed in terms of animation. With a very simple syntax, it offers a lot of possibilities. I'm going to see what it has to offer.",
+    "PhpDesc": "Currently I am focusing on the front, but in the future I would also like to develop the back-end language. Php is perfect because it will also be useful for learning Wordpress.",
+    "WpDesc": "Very nice cms. I've used it as a Headless api so far, but I'm sure it has more to offer. I would like to put up a shop window or shop on it.",
+    "PsDesc": "Some pictures are always needed for websites. I would like to develop photoshop because it is one of the best tools for preparing graphics."
+  },
+  "Projects":{
+    "ProjectsSectionTitle" : "Projects",
+    "All" : "All",
+    "ShowMore" : "See more"
+  },
+  "Contact":{
+    "ContactSectionTitle" : "Contact",
+    "Description" : "Contact me!"
+  },
+  "Footer":{
+    "Realization" : "Realization",
+    "Privacy" : "Privacy policy"
+  }
+}

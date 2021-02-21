@@ -190,3 +190,8 @@ margin-top: 50px;
   }
 }
 
+.orange-Text-gradient{
+  background: linear-gradient(to right, #d3661e, #d96f2a, #df7835, #e4803f, #ea894a, #ea894a, #ea894a, #ea894a, #e4803f, #df7835, #d96f2a, #d3661e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
