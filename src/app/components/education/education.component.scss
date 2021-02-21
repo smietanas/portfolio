@@ -22,6 +22,7 @@
 .timeline {
   position: relative;
   padding-top: 20px;
+
   &::before {
     position: absolute;
     left: 50px;
@@ -29,7 +30,7 @@
     height: 100%;
     transform: translateX(-50%);
     background: $color-second;
-    content: '';  
+    content: '';
   }
 }
 
@@ -84,7 +85,6 @@
   margin-left: -15px;
   background: $color-main;
 }
-
 
 @include media (sm) {
   .timeline-item {
@@ -176,7 +176,6 @@
       &:nth-child(odd) {
         margin-left: 130px;
       }
-
       &:nth-child(even) {
         margin-left: -130px;
       }

@@ -73,32 +73,39 @@
     background-image: url('~src/assets/img/phone-hover.png');
   }
 }
-.contact-logo{
+
+.contact-logo {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  .contact-logo__logo {
+
+  &__logo {
     display: flex;
     justify-content: center;
-     background-image: url("~src/assets/img/logo-medium.png");
-     height: 125px;
-     width: 200px;
-     background-repeat: no-repeat;
-     background-position: center center;
-   }
-   .contact-logo__name{
-     padding: 15px 0;
-   }
+    background-image: url("~src/assets/img/logo-medium.png");
+    height: 150px;
+    width: 225px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: background-image 0.5s ease;
+  }
+  &__logo:hover{
+    background-image: url("~src/assets/img/oh.png");
+  }
+
+  &__name {
+    padding: 15px 0;
+  }
 }
 
 
 
-@include media(sm){
+@include media(sm) {
 
-  .single-item__text{
+  .single-item__text {
     font-size: $font-normal;
   }
 }
@@ -107,19 +114,16 @@
   .single-item {
     padding: 10px 30px;
   }
-  .contact-box__description{
+
+  .contact-box__description {
     font-size: $font-mediumUp;
-    // padding: 50px 0;
   }
-  .contact-logo{
+
+  .contact-logo {
     padding-top: 40px;
-  .contact-logo__logo {
-    background-image: url("~src/assets/img/logo.png");
-    height: 175px;
-    width: 250px;
+
+    &__name {
+      font-size: $font-subtitle-page;
+    }
   }
-  .contact-logo__name{
-    font-size: $font-subtitle-page;
-  }
-}
 }

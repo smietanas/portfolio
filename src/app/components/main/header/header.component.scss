@@ -33,7 +33,7 @@
   align-items: center;
   
 
-  .logo__img {
+  &__img {
     background-image: url("~src/assets/img/logo-small.png");
     height: 65px;
     width: 100px;
@@ -41,17 +41,17 @@
     background-position: center center;
   }
 
-  .logo__languages {
+  &__languages {
     display: flex;
     padding: 5px;
 
     & img {
       padding: 10px;
       cursor: pointer;
+      width: 50px;
     }
   }
 }
-
 
 
 .logo-nav {
