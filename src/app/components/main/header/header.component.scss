@@ -34,11 +34,14 @@
   
 
   &__img {
-    background-image: url("~src/assets/img/logo-small.png");
-    height: 65px;
-    width: 100px;
-    background-repeat: no-repeat;
-    background-position: center center;
+    // background-image: url("~src/assets/img/logo-small.png");
+    // height: 65px;
+    // width: 100px;
+    // background-repeat: no-repeat;
+    // background-position: center center;
+    position: relative;
+    height: 40px;
+    width: 60px;
   }
 
   &__languages {
@@ -65,6 +68,35 @@
   right: 0px;
   overflow: hidden;
   outline: none;
+}
+
+svg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.logo-container {
+  fill: #FEFEFE
+}
+.k-up,.k-slash,.k-down{
+  fill:#333030
+}
+
+.left-up {
+  fill: #ED7C4B
+}
+.left-down {
+  fill: #333030
+}
+.right-up{
+  fill: #333030
+}
+.right-down{
+  fill: #ED7C4B
 }
 
 @include media(lg) {

@@ -13,13 +13,13 @@ export class ProjectsComponent implements OnInit {
   menuItems: any;
   projectList: ProjectsModel[];
   item: ProjectsModel;
-  currentLang:string;
+  currentLang: string;
 
-  constructor(private service: HttpService, public translate: TranslateService ) {
+  constructor(private service: HttpService, public translate: TranslateService) {
     this.service.getCurrentLang().subscribe(data => {
-      this.currentLang = data; 
+      this.currentLang = data;
     })
-   }
+  }
 
 
   ngOnInit(): void {
@@ -37,7 +37,7 @@ export class ProjectsComponent implements OnInit {
     })
   }
   filterProject(e: MouseEvent) {
-        
+
     const target = e.target as HTMLElement;
     const dataFilter = target.getAttribute('data-filter');
 
@@ -46,13 +46,11 @@ export class ProjectsComponent implements OnInit {
         this.projectList = data;
       });
 
+
+
       this.menuItems.forEach((item: HTMLElement) => item.classList.remove("active"));
       target.classList.add("active")
     }
   }
-
-
-
-
 
 }

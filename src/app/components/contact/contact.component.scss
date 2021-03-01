@@ -75,6 +75,7 @@
 }
 
 .contact-logo {
+
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -90,12 +91,8 @@
     width: 225px;
     background-repeat: no-repeat;
     background-position: center center;
-    transition: background-image 0.5s ease;
+    // transition: background-image 0.5s ease;
   }
-  &__logo:hover{
-    background-image: url("~src/assets/img/oh.png");
-  }
-
   &__name {
     padding: 15px 0;
   }
@@ -127,3 +124,4 @@
     }
   }
 }
+
