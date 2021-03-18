@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Nowe Spojrzenie",
+    "nameEg": "New Look",
+    "link": "http://www.ksmiertka.you2.pl/NoweSpojrzenie",
+    "categories": [
+      "all",
+      "ang"
+    ],
+    "technologies": "Angular/Bootstrap",
+    "description_modal1":"Salon kosmetyczny",
+    "description_modal2":"Strona salonu kosmetycznego. Zawiera opis szkoleń oraz zabiegów. Salon kosmetyczny zajmuje się pielęgnacją rzęs i brwi.",
+    "url_img": "./assets/img/nowespojrzenie.png",
+    "url_mogal1":"./assets/img/nowespojrzenie1.png",
+    "url_mogal2":"./assets/img/nowespojrzenie2.png",
+    "url_mogal3":"./assets/img/nowespojrzenie3.png",
+    "description_modal1Eg":"Beauty Studio",
+    "description_modal2Eg":"Beauty salon website. It includes a description of training and treatments. The beauty salon takes care of eyelashes and eyebrows."
+  },
+  {
+    "id": 2,
+    "name": "Portfolio-stare",
+    "link": "http://www.ksmiertka.you2.pl",
+    "categories": [
+      "all",
+      "css"
+    ],
+    "technologies": "Css",
+    "description_modal1":"Moje stare portfolio",
+    "description_modal2":"Moje pierwsze portfolio. Napisane jakiś już czas temu.",
+    "url_img": "./assets/img/portold.PNG",
+    "url_mogal1":"./assets/img/portold1.png",
+    "url_mogal2":"./assets/img/portold2.png",
+    "url_mogal3":"./assets/img/portold3.png",
+    "description_modal1Eg":"Portfolio",
+    "description_modal2Eg":"Beauty salon website. It includes a description of training and treatments. The beauty salon takes care of eyelashes and eyebrows."
+  },
+  {
+    "id": 3,
+    "name": "To-Do",
+    "link": "http://server419909.nazwa.pl/",
+    "categories": [
+      "all",
+      "ang"
+    ],
+    "technologies": "Angular",
+    "description_modal1":"Lista zadań",
+    "description_modal2":"Aplikacja do zapisywania zadań do wykonania. Oprawa w materialize css.",
+    "url_img": "./assets/img/todo.PNG",
+    "url_mogal1":"./assets/img/todo1.PNG",
+    "url_mogal2":"./assets/img/todo2.png",
+    "url_mogal3":"./assets/img/todo3.PNG",
+    "description_modal1Eg":"To do list",
+    "description_modal2Eg":"Application for saving to-do tasks. Binding in materialize css."
+  },
+  {
+    "id": 4,
+    "name": "MNX Studio",
+    "link": "http://ksmiertka.you2.pl/strona1-bootstrap/",
+    "categories": [
+      "all",
+      "jsb"
+    ],
+    "technologies": "Bootstrap/css/js",
+    "description_modal1":"Studio fotograficzne",
+    "description_modal2":"Szablon dla strony studia fotograficznego",
+    "url_img": "./assets/img/mnxstudio.PNG",
+    "url_mogal1":"./assets/img/mnxstudio1.PNG",
+    "url_mogal2":"./assets/img/mnxstudio2.PNG",
+    "url_mogal3":"./assets/img/mnxstudio3.PNG",
+    "description_modal1Eg":"Photo studio",
+    "description_modal2Eg":"Template for a photo studio website."
+  },
+  {
+    "id": 5,
+    "name": "Fire Service",
+    "link": "http://ksmiertka.you2.pl/strona2-bootstrap/",
+    "categories": [
+      "all",
+      "jsb"
+    ],
+    "technologies": "JavaScritp/bootstrap/css",
+    "description_modal1":"Serwis samochodowy",
+    "description_modal2":"Szablon dla strony serwisu samochodowego",
+    "url_img": "./assets/img/fireservice.PNG",
+    "url_mogal1":"./assets/img/fireservice1.PNG",
+    "url_mogal2":"./assets/img/fireservice2.PNG",
+    "url_mogal3":"./assets/img/fireservice3.PNG",
+    "description_modal1Eg":"Car service",
+    "description_modal2Eg":"Template for a car service page"
+  },
+  {
+    "id": 6,
+    "name": "Cms Model",
+    "link": "http://ksmiertka.you2.pl/strona3-bootstrap/",
+    "categories": [
+      "all",
+      "jsb"
+    ],
+    "technologies": "JavaScritp/bootstrap/css",
+    "description_modal1":"Cms",
+    "description_modal2":"Szablon dla CMS-a",
+    "url_img": "./assets/img/cms.PNG",
+    "url_mogal1":"./assets/img/cms1.PNG",
+    "url_mogal2":"./assets/img/cms2.PNG",
+    "url_mogal3":"./assets/img/cms3.PNG",
+    "description_modal1Eg":"Template for a CMS",
+    "description_modal2Eg":"Simple template for CMS."
+  },
+  {
+    "id": 7,
+    "name": "Weather App",
+    "link": "http://ksmiertka.you2.pl/weather",
+    "categories": [
+      "all",
+      "ang"
+    ],
+    "technologies": "Angular",
+    "description_modal1":"Aplikacja pogodowa",
+    "description_modal2":"Prosta aplikacja pogodowa. Do dyspozycji mamy stopnie celsjusza i fahrenheita.",
+    "url_img": "./assets/img/weather.PNG",
+    "url_mogal1":"./assets/img/weather1.PNG",
+    "url_mogal2":"./assets/img/weather2.PNG",
+    "url_mogal3":"./assets/img/weather3.PNG",
+    "description_modal1Eg":"Check the temperature",
+    "description_modal2Eg":"A simple weather app. We have degrees Celsius and Fahrenheit."
+  },
+  {
+    "id": 8,
+    "name": "Bella Food",
+    "link": "http://ksmiertka.you2.pl/bella",
+    "categories": [
+      "all",
+      "jsb"
+    ],
+    "technologies": "JavaScript/Bootstrap/css",
+    "description_modal1":"Restauracja Bella Food",
+    "description_modal2":"Szablon dla strony restauracji.",
+    "url_img": "./assets/img/bella.PNG",
+    "url_mogal1":"./assets/img/bella1.PNG",
+    "url_mogal2":"./assets/img/bella2.PNG",
+    "url_mogal3":"./assets/img/bella3.PNG",
+    "description_modal1Eg":"Bella Food Restaurant",
+    "description_modal2Eg":"Template for a restaurant website."
+  },
+  {
+    "id": 9,
+    "name": "Quotes",
+    "link": "http://ksmiertka.you2.pl/quotes",
+    "categories": [
+      "all",
+      "ang"
+    ],
+    "technologies": "Angular/Materialize-css",
+    "description_modal1":"Najlepsze Cytaty",
+    "description_modal2":"Zbiór ulubionych cytatów",
+    "url_img": "./assets/img/quote.PNG",
+    "url_mogal1":"./assets/img/quote1.PNG",
+    "url_mogal2":"./assets/img/quote2.PNG",
+    "url_mogal3":"./assets/img/quote3.PNG",
+    "description_modal1Eg":"Best Quotes",
+    "description_modal2Eg":"Collection of favorite quotes."
+  },
+  {
+    "id": 10,
+    "name": "Currency calculator",
+    "link": "http://ksmiertka.you2.pl/Currency-calculator",
+    "categories": [
+      "all",
+      "jsb"
+    ],
+    "technologies": "Javascript/css",
+    "description_modal1":"Waluta na złotówki",
+    "description_modal2":"Przelicznik walut względem złotówki",
+    "url_img": "./assets/img/curr.PNG",
+    "url_mogal1":"./assets/img/curr1.PNG",
+    "url_mogal2":"./assets/img/curr2.PNG",
+    "url_mogal3":"./assets/img/curr3.PNG",
+    "description_modal1Eg":"Currency to PLN",
+    "description_modal2Eg":"Currency converter against PLN"
+  },
+  {
+    "id": 11,
+    "name": "Social Baner Creator",
+    "link": "http://ksmiertka.you2.pl/baner",
+    "categories": [
+      "all",
+      "ang"
+    ],
+    "technologies": "Angular/Materialize-css",
+    "description_modal1":"Stwórz swój baner",
+    "description_modal2":"Aplikacja po odpowiedniej konfiguracji tworzy dla nas baner do social mediów",
+    "url_img": "./assets/img/social.PNG",
+    "url_mogal1":"./assets/img/social1.PNG",
+    "url_mogal2":"./assets/img/social2.PNG",
+    "url_mogal3":"./assets/img/social3.PNG",
+    "description_modal1Eg":"Create your own banner",
+    "description_modal2Eg":"The application, after appropriate configuration, creates a banner for social media for us"
+  }
+
+]

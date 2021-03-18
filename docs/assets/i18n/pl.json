@@ -1,0 +1,57 @@
+{
+  "Nav": {
+    "Main": "Główna",
+    "Skills": "Umiejętności",
+    "Education": "Edukacja",
+    "About": "O mnie",
+    "Future": "Przyszłość",
+    "Projects": "Projekty",
+    "Contact": "Kontakt"
+  },
+  "Skills":{
+    "SkillsSectionTitle": "Umiejętności"
+  },
+  "Education":{
+    "EducationSectionTitle" : "Edukacja",
+    "EduBoxUniv1": "Uniwersytet Rzeszowski - Informatyka",
+    "EduBoxUniv2": "Technikum nr 8 w Przemyślu",
+    "EduBoxSpec1": "Specjalizacja: informatyka w medycynie",
+    "EduBoxSpec2": "Technik informatyk",
+    "EduBoxLvl1": "Studia magisterskie",
+    "EduBoxLvl2": "Studia inżynierskie",
+    "EduBoxDate1": "2016-2017",
+    "EduBoxDate2": "2012-2016",
+    "EduBoxDate3": "2006-2010"
+  },
+  "About":{
+    "AboutSectionTitle" : "Kilka słów o mnie",
+    "Description1": "Wybrałem branżę IT, ponieważ zafascynowało mnie to, jak szybko się ona rozwija i na jak wiele dziedzin się dzieli. W czasie studiów spodobał mi się język JavaScript. W przypadku Front-end, od razu widać efekty pracy, co jeszcze bardziej mnie motywuje do doskonalenia swoich umiejętności.",
+    
+    "Description2": "Z czasem chciałem pisać strony dla własnych potrzeb, które będą wyglądać profesjonalnie. Im więcej technologii czy frameworków poznaje, tym bardziej chcę się rozwijać w tym kierunku. W przyszłości chciałbym poznać także technologie Back-endowe, by moje projekty były jeszcze lepsze. W wolnym czasie poza kodowaniem oglądam seriale albo gram. Lubię też aktywnie spędzać czas ze znajomymi, grając w kręgle lub squasha.",
+    "CiteTitle": "Mój ulubiony cytat",
+    "Cite": "Wiele spośród rzeczy, które możesz policzyć, nie liczą się. Wiele z tych, których policzyć nie można, naprawdę się liczą."
+  },
+  "Future":{
+    "FutureSectionTitle" : "Przyszłość",
+    "Description": "Stawiam na ciągły rozwój. W przyszłości chciałbym rozwijać także technologie Back-endowe takie jak Node.js czy PHP. Planuję też poznać biblioteki do tworzenia animacji i ciekawych rozwiązań wizualnych takich jak Gsap i Three.js. Chciałbym też poszerzyć wiedzę z zakresu programów do tworzenia grafiki takie jak Photo Shop jak również wiele innych takich jak np. Wordpress.",
+    "FigmaDesc": "Aktualnie mockupy projektuję w tym programie. Jednak ma jeszcze wiele opcji, które chciałbym poznać jak np. animacje i interakcje między ramkami.",
+    "ThreeDesc": "Od dawna fascynują mnie animacje w tym środowisku. Three.js posiada wiele możliwości, jednak najbardziej podobają mi się particles. Efekty rozbijania tekstu lub obrazka są naprawdę niesamowite.",
+    "GsapDesc": "Bardzo fajna biblioteka. Niezwykle rozwinięta jeżeli chodzi o animację. Przy bardzo prostej składni, oferuje mnóstwo możliwości. Mam zamiar przekonać się co ma do zaoferowania.",
+    "PhpDesc": "Aktualnie skupiam się na froncie, lecz w przyszłości chciałbym też rozwinąć język back-endowy. Php jest idealny ponieważ przyda mi się także do nauki Wordpressa.",
+    "WpDesc": "Bardzo fajny cms. Do tej pory wykorzystywałem go jako Headless api, ale jestem pewien że ma więcej do zaoferowania. Chciałbym postawić na nim jakąś witrynę lub sklep.",
+    "PsDesc": "Do witryn zawsze potrzebne są jakieś obrazki. Chciałbym rozwinąć photoshopa bo to jedno z najlepszych narzędzi do przygotowywania grafik."
+  },
+  "Projects":{
+    "ProjectsSectionTitle" : "Projekty",
+    "All" : "Wszystkie",
+    "ShowMore" : "Zobacz więcej"
+  },
+  "Contact":{
+    "ContactSectionTitle" : "Kontakt",
+    "Description" : "Skontaktuj się ze mną!"
+  },
+  "Footer":{
+    "Realization" : "Realizacja",
+    "Privacy" : "Polityka Prywatności"
+  }
+}
