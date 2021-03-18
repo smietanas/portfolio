@@ -1,4 +1,4 @@
-import { AfterContentInit, Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { AfterContentInit, Component, OnInit } from '@angular/core';
 import { gsap } from 'gsap';
 import { TranslateService } from '@ngx-translate/core';
 import { HttpService } from 'src/app/shared/services/http.service';
